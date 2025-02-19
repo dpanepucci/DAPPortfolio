@@ -4,11 +4,19 @@
     border-radius: 5px;
     margin-top: 20px;
 }
-
+ /* Nav Tab Layout Styling */
 .nav-tabs {
 display: flex;
 justify-content: space-between;
 list-style: none;
 font-size: larger;
 margin-bottom: 80px;
+color: white;
+} 
+
+/* Nav Tab Link Styling */
+.nav-link {
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
 }
