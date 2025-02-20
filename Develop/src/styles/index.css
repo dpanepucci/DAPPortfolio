@@ -7,12 +7,14 @@
 
 /* Profile Picture */
 .img-header {
-    background-color: tomato;
-    /* background-image: ADD IMAGE HERE; */
+    width: 200px;
+    height: 200px;
+    background-image: url('../../public/img/profile-picture.jpg');
+    background-size: cover;
+    background-position: center;
     border-radius: 50%;
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 30px;
+    border: 3px solid #333;
+    margin: 20px auto; 
 }
 
 body {
