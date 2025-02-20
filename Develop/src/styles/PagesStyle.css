@@ -60,6 +60,7 @@ li {
     background-size: cover; /* Ensures the image covers the entire page */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents repeating */
+    height: 180px;
 }
 
 .projectTwo { /* README Generator */
@@ -76,9 +77,10 @@ li {
     background-size: cover; /* Ensures the image covers the entire page */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents repeating */
+    height: 180px;
 }
 
-.projectThree {
+.projectThree { /* Command Line Cars */
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
@@ -92,6 +94,7 @@ li {
     background-size: cover; /* Ensures the image covers the entire page */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents repeating */
+    height: 180px;
 }
 
 .project-name {

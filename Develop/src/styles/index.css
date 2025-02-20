@@ -28,6 +28,7 @@ body {
     background-attachment: fixed; /* Keeps it fixed while scrolling */
   }
 
+  /* Footer words */
 #sig {
     display: flex;
     justify-content: center;
@@ -35,10 +36,49 @@ body {
     font-size: large;
 }
 
+/* Name and Title  */
 header li {
     color: white;
     font-weight: bolder;
     text-shadow: 1px 1px 2px black, 0 0 25px seashell, 0 0 5px darkblue;
     margin-bottom: 0px;
     font-size: 20px;
+}
+
+footer {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+footer img {
+    width: 40px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+footer img:hover {
+    opacity: 1;
+}
+
+#git {
+    height: 80px;
+    width: 80px;
+}
+
+#linked {
+    height: 60px;
+    width: 190px;
+    background-color: white;
+}
+
+#git, #linked {
+    margin-top: 120px;
 }

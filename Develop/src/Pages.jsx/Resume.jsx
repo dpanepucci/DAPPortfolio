@@ -17,6 +17,7 @@ export default function Resume() {
             <li>CSS</li>
             <li>JavaScript</li>
             <li>React</li>
+            <li>SQL/Postgres</li>
         </div>
       );
     }
