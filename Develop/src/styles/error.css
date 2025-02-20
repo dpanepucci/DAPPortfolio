@@ -14,27 +14,7 @@ p {
     text-shadow: 1px 1px 2px black, 0 0 25px seashell, 0 0 5px darkblue;
 }
 
-/* button {
-    color: white;
-    font-size: 20px;
-    font-weight: bolder;
-    text-shadow: 1px 1px 2px black, 0 0 25px seashell, 0 0 5px darkblue;
-    height: 70px;
-    width: 190px;
-}
-    
-    button:hover::after {
-        content: "Mulligan";
-        display: block;
-        color: white;
-        font-size: 20px;
-        font-weight: bolder;
-        text-shadow: 1px 1px 2px black, 0 0 25px seashell, 0 0 5px darkblue;
-        height: 70px;
-        width: 190px;
-    } */
-
-   button {
+   #handle-error {
         padding: 10px 20px;
         font-size: 20px;
         cursor: pointer;
@@ -46,7 +26,7 @@ p {
         transition: color 0.3s;
     }
     
-    button::after {
+    #handle-error::after {
         content: "Mulligan";
         color: black;
         position: absolute;
@@ -58,11 +38,11 @@ p {
         transition: opacity 0.3s;
     }
     
-    button:hover::after {
+    #handle-error:hover::after {
         opacity: 1;
     }
     
-    button:hover {
+    #handle-error:hover {
         color: transparent;
     }
     

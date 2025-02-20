@@ -148,7 +148,8 @@ input {
     height: 100px;
     width: 300px;
 }
-.submit {
+
+#submit {
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
@@ -157,4 +158,9 @@ input {
     font-weight: bold;
     margin-top: 20px;
     padding: 10px;
+}
+
+#submit:hover {
+    background-color: lightskyblue;
+    color: white;
 }
