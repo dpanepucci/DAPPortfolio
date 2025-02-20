@@ -1,7 +1,10 @@
+/* GENERAL STYLES FOR HEADER AND MAIN PARAGRAPH FOR ALL PAGES */
+
 .h1 {
 color: white;
 font-size: 60px;
-font-weight:bold
+font-weight:bold;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .main-para {
@@ -10,4 +13,33 @@ font-size: 30px;
 font-weight: bold;
 font-family: 'Times New Roman', Times, serif;
 line-height: 2;
+text-shadow: 1px 1px 2px black;
+}
+
+
+/* RESUME TAB SPECIFIC STYLES */
+
+/* Styling for click-able resume link */
+/* WHY CAN I ONLY CLICK THIS ONCE? */
+.resume {
+    font-size: large;
+    color:white;
+}
+
+/* Skills RN and Technical Listings */
+.skills, li {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px 2px black;
+}
+.skills {
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+li {
+    font-size: 25px;
+    list-style: none;
+    margin: 10px;
 }
