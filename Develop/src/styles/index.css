@@ -2,16 +2,21 @@
     font-size: xx-large;
     font-weight: bolder;
     color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px seashell, 0 0 5px darkblue;
 }
 
-
+/* Profile Picture */
 .img-header {
-    background-color: yellow;
+    background-color: tomato;
+    /* background-image: ADD IMAGE HERE; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
 }
 
 body {
-    background-image: url('../../public/img/port-background.jpg'); /* Replace with your image path */
+    background-image: url('../../public/img/port-background.jpg'); 
     background-size: cover; /* Ensures the image covers the entire page */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents repeating */

@@ -4,7 +4,7 @@
 color: white;
 font-size: 60px;
 font-weight:bold;
-text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+text-shadow: 1px 1px 2px black, 0 0 25px seashell, 0 0 5px darkblue;
 }
 
 .main-para {
@@ -17,7 +17,7 @@ text-shadow: 1px 1px 2px black;
 }
 
 
-/* RESUME TAB SPECIFIC STYLES */
+/* ------------------------------------------RESUME TAB SPECIFIC STYLES */
 
 /* Styling for click-able resume link */
 /* WHY CAN I ONLY CLICK THIS ONCE? */
@@ -42,4 +42,41 @@ li {
     font-size: 25px;
     list-style: none;
     margin: 10px;
+}
+
+/* ------------------------------------------PORTFOLIO TAB SPECIFIC STYLES */
+
+/* ------------------------------------------CONTACT TAB SPECIFIC STYLES */
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+input {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.message {
+    height: 100px;
+    width: 300px;
+}
+.submit {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
 }
