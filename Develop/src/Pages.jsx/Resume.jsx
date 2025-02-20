@@ -5,7 +5,7 @@ export default function Resume() {
         <div>
           <h1 className="h1">Resume</h1>
           <p className="main-para">
-        <a className="resume" rel="icon" href='../../public/img/D.Panepucci-RN.pdf'>Click to view resume.</a>
+        <a className="resume" rel="icon" href='../../public/img/D.Panepucci-RN.jpg'>Click to view resume.</a>
           </p>
 
           <p className='skills'>Clinical Skills:</p>
