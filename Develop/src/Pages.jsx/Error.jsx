@@ -14,6 +14,7 @@ export default function ErrorPage() {
       <p>
         <i>{error.statusText || error.message}</i>
       </p>
+      <button onClick={() => window.history.back()}>Go Back</button>
     </div>
   );
 }
