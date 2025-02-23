@@ -3,11 +3,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
 import App from './App';
-import Error from './page-components/Error';
-import Contact from './page-components/Contact';
-import About from './page-components/About';
-import Portfolio from './page-components/Portfolio';
-import Resume from './page-components/Resume';
+import Error from './page-components/Error.jsx';
+import Contact from './page-components/Contact.jsx';
+import About from './page-components/About.jsx';
+import Portfolio from './page-components/Portfolio.jsx';
+import Resume from './page-components/Resume.jsx';
 
 // Nav Tabs
 const router = createBrowserRouter([
