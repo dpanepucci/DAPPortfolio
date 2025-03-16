@@ -80,7 +80,7 @@ li {
     height: 180px;
 }
 
-.projectThree { /* Command Line Cars */
+.projectThree { /* Golf Geek */
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
@@ -90,7 +90,7 @@ li {
     margin-top: 20px;
     padding: 10px;
     text-align: center;
-    background-image: url('../../public/img/command-cars.jpg');
+    background-image: url('../../public/img/GolfgeekPhoto.jpg');
     background-size: cover; /* Ensures the image covers the entire page */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents repeating */
